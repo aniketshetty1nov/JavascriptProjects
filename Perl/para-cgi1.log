@@ -1,0 +1,8 @@
+print (...) interpreted as function at - line 29 (#1)
+    (W syntax) You've run afoul of the rule that says that any list operator
+    followed by parentheses turns into a function, with all the list
+    operators arguments found inside the parentheses.  See
+    "Terms and List Operators (Leftward)" in perlop.
+    
+[Thu Apr 29 13:57:28 2021] -: print (...) interpreted as function at - line 29.
+- syntax OK

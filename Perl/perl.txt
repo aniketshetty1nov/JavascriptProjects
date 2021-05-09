@@ -1,0 +1,31 @@
+use strict;
+use warnings;
+use diagnostics;
+use feature 'say';
+use feature "switch";
+use v5.28.1;
+
+print "Perl version is 5 \n"; 
+
+#scalar
+my $name = 'Adarsh';
+ my($age, $street) = (22, 'Kanjurmarg');
+
+ my $my_info= "$name lives on\"$street\"\n";
+ $my_info = qq{$name lives on "$street"\n};
+
+ print $my_info;
+
+ my $bunch_on_info = <<"END";
+
+This is a 
+bunch of inform ation
+on multiple lines
+END
+
+say $bunch_on_info; 
+
+for (my $a=5; $a<=10; $a++){
+    say $a;
+}
+ 
